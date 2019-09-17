@@ -1,0 +1,110 @@
+form{
+    width: 400px;
+    height: 520px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 10px 3px rgba(0,0,0,0.1);
+}
+
+form .tituloFormulario{
+    width: 100%;
+    height: 100px;
+    display: var(--flex);
+    justify-content: var(--center);
+}
+
+form .tituloFormulario .container{
+    width: 85%;
+    height: 100%;
+    display: var(--flex);
+    justify-content: var(--flex-start);
+    align-items: var(--flex-end);
+    font-size: 24pt;
+    color: #888888;
+}
+
+form .subTituloFormulario{
+    width: 100%;
+    height: 80px;
+    display: var(--flex);
+    justify-content: var(--center);
+}
+
+form .subTituloFormulario .container{
+    width: 85%;
+    height: 100%;
+    display: var(--flex);
+    justify-content: var(--flex-start);
+    align-items: var(--flex-end);
+    color: #cccccc;
+    text-align: justify;
+    font-size: 11pt;
+}
+
+form .inputs{
+    margin-top: 40px;
+    width: 100%;
+    height: 220px;
+    display: var(--flex);
+    justify-content: var(--center);
+    flex-wrap: var(--wrap);
+    align-items: var(--center);
+}
+
+form .inputs input{
+    width: 70%;
+    padding: 15px 20px;
+    border: solid 2px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    text-align: var(--center);
+    color: #888888;
+    font-size: 12pt;
+}
+
+form .inputs input#email{
+    background-image: url("IMG/email.png");
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 50%;
+    background-size: 8%;
+}
+
+form .inputs input#senha{
+    background-image: url("IMG/senha.png");
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 50%;
+    background-size: 8%;
+}
+
+form .inputs input[type="submit"]{
+    transition: 1s;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 12pt;
+    width: 80%;
+    background-image: linear-gradient(to right, #01d2fd, #00c8f9, #00bff5, #00b5f0, #0babea);
+}
+
+form .recover{
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+}
+
+form .recover .container{
+    width: 80%;
+    height: 100%;
+    display: var(--flex);
+    justify-content: var(--flex-start);
+    align-items:  var(--flex-start);
+}
+
+form .recover .container a{
+    color: #cccccc;
+    font-size: 10pt;
+    text-decoration: none;
+}

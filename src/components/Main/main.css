@@ -1,0 +1,6 @@
+main{
+    width: 70%;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+}
